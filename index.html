@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entre Números y Palabras: Comunicar para Contar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;      /* Azul oscuro profesional */
+      --secondary: #3b82f6;
+      --light: #f8fafc;
+      --dark: #111827;
+      --gray: #64748b;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+      position: relative;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    nav {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.8rem 1.5rem;
+      transition: all 0.3s;
+    }
+    nav a:hover { color: var(--secondary); background: #eff6ff; border-radius: 6px; }
+    section {
+      padding: 4rem 0;
+    }
+    h2 {
+      color: var(--primary);
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    h3 {
+      color: var(--secondary);
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+    }
+    .intro-text {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 2rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover { transform: scale(1.05); }
+    .team, .cronograma, .reflexiones, .importancia, .referencias {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      margin: 2rem 0;
+    }
+    .referencias ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .referencias li {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+    }
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.5rem; }
+      nav ul { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Entre números y palabras:<br>comunicar para contar</h1>
+      <p style="font-size:1.3rem; opacity:0.9;">La comunicación como herramienta esencial en la Contaduría Pública</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#importancia">Importancia</a></li>
+      <li><a href="#roles">Equipo</a></li>
+      <li><a href="#cronograma">Cronograma</a></li>
+      <li><a href="#reflexiones">Reflexiones</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio" class="container">
+    <h2>UNIVERSIDAD REPÚBLICA DE MÉXICO</h2>
+    <p class="intro-text" style="text-align:center; font-weight:bold; margin:1rem 0;">
+      COMUNICACIÓN ORAL Y ESCRITA • CONTABILIDAD 1<br>
+      Proyecto Colaborativo: Blog sobre la importancia de la comunicación oral y escrita en la Contaduría Pública<br>
+      Maestra: L.L.L. Ruth Cecilia Ceballos Torres<br>
+      Entrega: 11/Enero/2026
+    </p>
+
+    <div class="gallery">
+      <img src="https://thumbs.dreamstime.com/b/consulta-de-contabilidad-profesional-mujer-joven-explicando-datos-financieros-un-cliente-en-una-oficina-contador-se-relaciona-382493979.jpg" alt="Contador explicando a cliente">
+      <img src="https://kingofkingsllc.com/wp-content/uploads/2025/11/working-with-business-accountant.jpg" alt="Reunión contable profesional">
+      <img src="https://thumbs.dreamstime.com/z/contador-principal-explicando-el-informe-al-cierre-de-la-empresa-financiera-oficina-del-colega-su-en-un-empresario-decepcionado-387577775.jpg" alt="Explicación de informe financiero">
+    </div>
+
+    <h2>Objetivo del Blog</h2>
+    <p class="intro-text">
+      Resalta que el contador no sólo se dedica al análisis numérico; también transmite información financiera con claridad y precisión, para mensajes profesionales, estructurados y éticos. Esto convierte la comunicación en una competencia clave para fortalecer conocimientos, habilidades y confianza en nuestro futuro profesional como contador público.
+    </p>
+    <p class="intro-text">
+      El objetivo es proporcionar un espacio informativo y formativo que explique la importancia de la comunicación profesional (oral y escrita), ofreciendo herramientas prácticas para explicar información compleja, redactar informes y transmitir seguridad.
+    </p>
+    <p class="intro-text">
+      Dirigido principalmente a estudiantes de contaduría pública, jóvenes profesionistas y personas interesadas en mejorar sus habilidades comunicativas en el ámbito financiero.
+    </p>
+  </section>
+
+  <section id="importancia" style="background:#f1f5f9;">
+    <div class="container">
+      <h2>Importancia de la comunicación oral y escrita en la contaduría pública</h2>
+      
+      <div class="importancia">
+        <h3>Comunicación oral: Transmitir confianza y claridad en tiempo real</h3>
+        <p>En la vida diaria del contador, la comunicación oral es esencial para explicar conceptos complejos de forma sencilla y generar confianza inmediata. Un malentendido verbal puede costar miles de pesos en decisiones erróneas.</p>
+        <ul>
+          <li><strong>Ejemplo cotidiano 1:</strong> Explicar a un pequeño empresario por qué su declaración mensual de IVA salió más alta de lo esperado, usando ejemplos simples como “es como si tu tienda vendiera más refrescos de los que pensabas y ahora debes pagar más impuesto por esas ventas extras”.</li>
+          <li><strong>Ejemplo cotidiano 2:</strong> En una junta con socios, presentar los estados financieros del trimestre y responder preguntas en el momento: “¿Por qué aumentaron los gastos operativos?” → Responder con datos y analogías claras para evitar confusiones.</li>
+          <li><strong>Ejemplo cotidiano 3:</strong> Atender una llamada de un cliente preocupado por una multa del SAT y tranquilizarlo explicando paso a paso cómo corregir el error y evitar sanciones futuras.</li>
+        </ul>
+
+        <div class="gallery">
+          <img src="https://thumbs.dreamstime.com/b/consulta-de-contabilidad-profesional-mujer-joven-explicando-datos-financieros-un-cliente-en-una-oficina-contador-se-relaciona-382493979.jpg" alt="Contador explicando verbalmente a cliente">
+          <img src="https://thumbs.dreamstime.com/z/contador-principal-explicando-el-informe-al-cierre-de-la-empresa-financiera-oficina-del-colega-su-en-un-empresario-decepcionado-387577775.jpg" alt="Presentación oral de resultados">
+          <img src="https://www.shutterstock.com/image-photo/two-confident-male-female-professional-600nw-2685256525.jpg" alt="Reunión de contadores discutiendo">
+        </div>
+      </div>
+
+      <div class="importancia">
+        <h3>Comunicación escrita: Evitar errores costosos y dejar constancia profesional</h3>
+        <p>Los informes, correos y dictámenes escritos son la huella permanente del trabajo del contador. Una redacción confusa o con errores puede generar malentendidos, auditorías o incluso demandas.</p>
+        <ul>
+          <li><strong>Ejemplo cotidiano 1:</strong> Redactar un correo al cliente con el cálculo del ISR anual, usando lenguaje claro: “El impuesto a pagar es de $45,200 porque aplicamos la tarifa del 30% sobre la utilidad fiscal de $150,667” (en vez de solo enviar números sin explicación).</li>
+          <li><strong>Ejemplo cotidiano 2:</strong> Elaborar un informe de revisión de nómina donde se detallen claramente las diferencias encontradas, recomendaciones y plazos de corrección.</li>
+          <li><strong>Ejemplo cotidiano 3:</strong> Preparar un dictamen fiscal que sea comprensible tanto para el cliente como para el SAT, evitando ambigüedades.</li>
+        </ul>
+
+        <div class="gallery">
+          <img src="https://thumbs.dreamstime.com/b/contador-masculino-analizando-el-documento-financiero-mientras-trabaja-en-una-laptop-la-oficina-con-colegas-femeninas-segundo-376324969.jpg" alt="Redactando informe financiero profesional">
+          <img src="https://www.blueridge.edu/wp-content/uploads/2020/01/ftr-accounting-GI1135581630-862x485.jpg" alt="Trabajando en documentos contables">
+        </div>
+      </div>
+
+      <p class="intro-text" style="font-weight:bold; margin-top:2rem;">
+        En resumen: la comunicación oral construye confianza en el momento, mientras que la escrita deja evidencia clara y profesional. Ambas son igual de importantes para que el contador no solo “lleve” los números, sino que realmente “cuente” historias financieras útiles y confiables.
+      </p>
+    </div>
+  </section>
+
+  <section id="roles" class="container">
+    <h2>Roles y Responsabilidades del Equipo</h2>
+    <div class="team">
+      <h3>Yeraldine – Coordinación General</h3>
+      <ul>
+        <li>Organiza y supervisa el trabajo del equipo.</li>
+        <li>Coordina y mantiene comunicación constante.</li>
+        <li>Establece fechas de entrega y verifica el cumplimiento de los objetivos.</li>
+      </ul>
+
+      <h3>Santiago – Redacción</h3>
+      <ul>
+        <li>Redacta los textos principales del blog.</li>
+        <li>Elabora introducciones, conclusiones y contenido informativo.</li>
+        <li>Integra aportes del equipo en un texto coherente y profesional.</li>
+      </ul>
+
+      <h3>Ashley – Diseño y Gestión Técnica</h3>
+      <ul>
+        <li>Diseña la estructura visual del blog.</li>
+        <li>Selecciona tipografías, colores e imágenes.</li>
+        <li>Configura y administra la plataforma del blog.</li>
+      </ul>
+
+      <h3>Omar – Revisión y Corrección de Estilo</h3>
+      <ul>
+        <li>Revisa ortografía, gramática y puntuación.</li>
+        <li>Mejora coherencia, cohesión y claridad del texto.</li>
+        <li>Asegura un tono profesional adecuado a la contaduría.</li>
+      </ul>
+    </div>
+
+    <div class="gallery">
+      <img src="https://thumbs.dreamstime.com/b/un-grupo-de-estudiantes-diversos-est%C3%A1-colaborando-activamente-en-una-laptop-ambiente-estudio-moderno-mostrando-trabajo-equipo-332040839.jpg" alt="Equipo colaborando">
+      <img src="https://thumbs.dreamstime.com/b/equipo-de-j%C3%B3venes-y-diversos-que-trabajan-en-la-oficina-discutiendo-ideas-usando-laptops-multirraciales-sentados-mesa-trabajo-405356439.jpg" alt="Estudiantes trabajando juntos">
+    </div>
+  </section>
+
+  <section id="cronograma" style="background:#f1f5f9;">
+    <div class="container">
+      <h2>Cronograma de Trabajo</h2>
+      <p class="intro-text">Etapa 2 (Producción y publicación del blog)</p>
+
+      <div class="cronograma">
+        <h3>Semana 1 – Producción de contenido (16 al 20 de diciembre 2025)</h3>
+        <ul>
+          <li>Redacción de la Página de Inicio</li>
+          <li>Borradores de las 3 entradas principales</li>
+          <li>Recolección de ejemplos aplicados al campo contable</li>
+        </ul>
+        <p><strong>Responsables:</strong> Redacción • Coordinación general</p>
+
+        <h3>Semana 2 – Edición y ampliación (6 al 8 de enero 2026)</h3>
+        <ul>
+          <li>Corrección de estilo, ortografía y coherencia</li>
+          <li>Sección “Importancia de la comunicación en la contaduría”</li>
+          <li>Mini biografías de los integrantes</li>
+        </ul>
+        <p><strong>Responsables:</strong> Revisión y corrección • Redacción</p>
+
+        <h3>Semana 3 – Diseño y armado (9 al 10 de enero 2026)</h3>
+        <ul>
+          <li>Selección y configuración de la plataforma</li>
+          <li>Integración de textos definitivos</li>
+          <li>Diseño visual coherente</li>
+        </ul>
+        <p><strong>Responsables:</strong> Diseño • Coordinación general • Equipo completo</p>
+
+        <h3>Semana 4 – Revisión final y publicación (11 al 12 de enero 2026)</h3>
+      </div>
+
+      <div class="gallery" style="margin-top:2rem;">
+        <img src="https://s3.amazonaws.com/thumbnails.venngage.com/template/aa21469f-e340-4737-be69-56459c0a21ac.png" alt="Infografía cronograma">
+      </div>
+    </div>
+  </section>
+
+  <section id="reflexiones" class="container">
+    <h2>Reflexiones del Proyecto</h2>
+
+    <div class="reflexiones">
+      <h3>Bote Eb Santiago Jasiel</h3>
+      <p>Durante este semestre me di cuenta de lo importante que es la comunicación, no solo para la escuela, sino también para nuestra vida profesional. [...] (continúa con el texto completo de tu reflexión personal). En conclusión, este curso me ayudó a ver que la comunicación va mucho más allá de hablar o escribir: es saber expresarnos, entender a los demás, transmitir seguridad y trabajar de manera más profesional.</p>
+    </div>
+
+    <div class="reflexiones">
+      <h3>Canche Caamal Marilany Yeraldine</h3>
+      <p>Como estudiante de contaduría pública, este proyecto me permitió darme cuenta de que la comunicación es una parte fundamental de nuestra formación [...] Ahora sé que la contaduría no solo son números, sino también personas, decisiones y mensajes que deben expresarse de forma sencilla y entendible.</p>
+    </div>
+
+    <div class="reflexiones">
+      <h3>Cocom Kuk Ashley Gabriela</h3>
+      <p>Durante la realización del proyecto y a lo largo del semestre entendí con más claridad que la comunicación [...] Mejorar mi forma de expresarme es un paso importante para dar información de calidad, generar confianza y desempeñar un trabajo profesional.</p>
+    </div>
+
+    <div class="reflexiones">
+      <h3>Dzul Xool Omar</h3>
+      <p>Durante el proyecto pude darme cuenta de lo importante que fueron tanto la materia de Contaduría Pública como la de Comunicación Oral y Escrita [...] En conclusión, todo lo que aprendí este semestre me será útil para enfrentar situaciones reales en las que se necesita tanto un buen análisis como una buena comunicación.</p>
+    </div>
+
+    <div class="gallery">
+      <img src="https://www.shutterstock.com/image-photo/hispanic-accountant-engaged-detailed-financial-260nw-2518824575.jpg" alt="Estudiante reflexionando contabilidad">
+      <img src="https://www.shutterstock.com/image-photo/closeup-hands-using-calculator-on-260nw-2549301193.jpg" alt="Pensando con calculadora">
+    </div>
+  </section>
+
+  <!-- Nueva sección: Referencias en formato APA -->
+  <section id="referencias" class="referencias container">
+    <h2>Referencias</h2>
+    <ul>
+      <li>Bautista, U. P. (2022). La comunicación en la contabilidad. ResearchGate. https://www.researchgate.net/publication/363690656_La_comunicacion_en_la_contabilidad</li>
+      <li>Conway, C. T., & Gould, S. (2014). The communication skills of accountants: What we know and the gaps in our knowledge. Accounting Education, 23(2), 119-138. https://doi.org/10.1080/09639284.2013.847329</li>
+      <li>Federación Internacional de Contadores (IFAC). (2024). Habilidades blandas esenciales para contadores públicos. Instituto Nacional de Contadores Públicos de Colombia. https://incp.org.co/publicaciones/infoincp-publicaciones/2024/05/por-que-las-habilidades-blandas-son-esenciales-para-los-contadores-publicos/</li>
+      <li>Jackling, B., & Watty, K. (2013). Improving communication skills of accounting students: A review of the literature. Accounting Education, 22(4), 345-364.</li>
+      <li>LearnFormula. (2022, octubre 26). Effective communication skills for accountants [Curso en línea]. CPDFormula. https://cpdformula.com/course/effective-communication-skills-for-accountants</li>
+      <li>Why clear communication is critical to accountants [Video]. (2023, mayo 22). YouTube. https://www.youtube.com/watch?v=5Xa1wH3Q-HY</li>
+      <li>Communication skills for accountants [Video]. (2025, enero 31). YouTube. https://www.youtube.com/watch?v=iwFz2Gyneqg</li>
+    </ul>
+    <p class="intro-text" style="margin-top:1.5rem; font-style:italic;">
+     
+  </section>
+
+  <footer>
+    <p>Proyecto Ordinario • Enero 2026 • Universidad República de México</p>
+  </footer>
+
+</body>
+</html>
